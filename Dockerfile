@@ -2,6 +2,8 @@ FROM nvidia/cuda:10.0-cudnn7-runtime
 
 ARG VERSION="v7.6"
 
+ENV DEBIAN_FRONTEND=noninteractive
+
 ENV USER "daveys110"
 ENV TEAM "279321"
 ENV ENABLE_GPU "true"
